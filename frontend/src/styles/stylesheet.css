@@ -1,0 +1,210 @@
+.home-div {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.-dbuttoniv {
+    margin-top: 20px;
+}
+ 
+.button {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 10px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(83, 83, 186);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(42, 42, 172);
+}
+
+.register-title, .login-title {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.register-div, .login-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.form-divs {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+.form-divs > label {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.form-divs > input {
+    height: 20px;
+}
+
+.submit-div {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    padding: 10px;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(83, 83, 186);
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: rgb(42, 42, 172);
+}
+
+.scrt-div {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrt-hdr {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 5px;
+    border-bottom: solid;
+    border-width: 5px;
+}
+
+.scrt-inpt-divs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scrt-inpt {
+    width: 400px;
+    height: 25px;
+    margin-right: 10px;
+    text-align: center; 
+    font-size: 18px;
+}
+
+.scrt-add {
+    background-color: rgb(83, 83, 186);
+    width: 40px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.scrt-add:hover {
+    background-color: rgb(42, 42, 172);
+}
+
+.logout-div {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.logout-btn {
+    padding: 10px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(83, 83, 186);
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: rgb(42, 42, 172);
+}
+
+.scrt-lst {
+    display: flex;
+    justify-content: left;
+    width: 460px;
+
+}
+
+.scrt-lst > ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+    padding-inline-start: 0px;
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.lst-scrt {
+    margin-bottom: 5px;
+}
+
+.error-msg-div {
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.error-msg {
+    color: red;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.spinner-icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 200px;
+  }
+  
