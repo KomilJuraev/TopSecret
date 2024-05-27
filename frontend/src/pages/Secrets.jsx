@@ -42,7 +42,7 @@ const Secrets = () => {
             try {
                 if(userId && token) {
                     const data = await getSecretsForUser(userId);
-                    const secrets = data.result.rows.map(row => row.secret_info);
+                    const secrets = data.result.rows.map(row => row.secret_text);
                     setLoading(false);
                     setListOfSecrets(secrets)
                 } 
