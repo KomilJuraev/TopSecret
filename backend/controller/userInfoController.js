@@ -9,7 +9,7 @@ const register = async (req, res) => {
 
     try {
         const checkEmail = await db.query("Select * from users where email = $1", [email]);
-
+        console.log('Login Request received ' + email, password);
         if(checkEmail.rows.length > 0) {
             return res.status(400).json({error: "email is already registered, please try another email to register."});
         } 
@@ -38,11 +38,11 @@ const login = async (req, res) => {
 
     try {
         const checkEmail = await db.query("Select * from users where email = $1", [email]);
-
+        
         if(checkEmail.rows.length > 0) {
             const dbPassword = checkEmail.rows[0].password;
             const matchPass = await bcrypt.compare(password, dbPassword);
-        
+            console.log('Login Request received ' + email, password);
             if(matchPass) {
                 const token = createToken(checkEmail.rows[0].id);
                 return res.status(200).json({checkEmail, token});

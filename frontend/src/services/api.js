@@ -5,7 +5,7 @@ if (process.env.NODE_ENV === "development") {
     console.log(process.env);
     BASE_URL = "http://localhost:5000/api";
   } else if (process.env.NODE_ENV === "production") {
-    BASE_URL = "https://topsecret-l2s9.onrender.com";
+    BASE_URL = "https://topsecret-l2s9.onrender.com/api";
   }
 
 export async function registerUser(email, password) {
